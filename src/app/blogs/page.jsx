@@ -1,7 +1,7 @@
 import HeroSection from "../_CommonComponents/HeroSection";
 import Navigation from "../_CommonComponents/Navigation";
-import MostRecent from "./components/mostRecent";
-import OurBlogs from "./components/ourBlogs";
+import MostRecent from "./components/MostRecent";
+import OurBlogs from "./components/OurBlogs";
 import RelatedCourse from "./components/RelatedCourses";
 const App = () => {
   let navItems = [
