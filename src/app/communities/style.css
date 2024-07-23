@@ -1,0 +1,47 @@
+.purple_gradient {
+  background: #710199;
+  background: -moz-linear-gradient(
+    45deg,
+    #710199 0%,
+    #7901a3 47%,
+    #e69eff 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #710199 0%,
+    #7901a3 47%,
+    #e69eff 100%
+  );
+  background: linear-gradient(45deg, #710199 0%, #7901a3 47%, #e69eff 100%);
+}
+
+.pink_gradient {
+  background: #dddddd;
+  background: -moz-linear-gradient(
+    -45deg,
+    #dddddd 0%,
+    #dfe6ff 50%,
+    #c5f8ff 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #dddddd 0%,
+    #dfe6ff 50%,
+    #c5f8ff 100%
+  );
+  background: linear-gradient(135deg, #dddddd 0%, #dfe6ff 50%, #c5f8ff 100%);
+}
+
+/* styles.css */
+.whatsapp_hover {
+  background-image: url("/whatsapp-black.png");
+  width: 50px; /* Adjust the width according to your image */
+  height: 50px; /* Adjust the height according to your image */
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.whatsapp_button:hover .whatsapp_hover {
+  background-image: url("/WhatsappFrame.png");
+}

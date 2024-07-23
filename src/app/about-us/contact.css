@@ -1,0 +1,49 @@
+.half-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 650px;
+  background-image: url("/ourpeople-bg-img.png");
+  /* opacity: .8; */
+  background-color: rgb(81, 81, 81);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1; /* Ensure the background is behind the content */
+}
+
+.half-bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 650px; /* Match the height of the parent */
+  background-color: black; /* Set the background color */
+  opacity: 0.5; /* Apply opacity to the background color */
+  z-index: -1; /* Ensure it is below the background image */
+}
+
+.relative {
+  position: relative;
+}
+
+/* styles.css */
+.last-child-marker::after {
+  content: "▼";
+  display: flex;
+  justify-content: center;
+  color: #ffc635; /* Adjust color as needed */
+  margin-top: 155px; /* Adjust as needed */
+  font-size: 30px;
+}
+
+.last-child-text::after {
+  content: "Our Journey Continue...";
+  display: block;
+  color: #329802;
+  margin-top: 80px;
+  font-size: 12px;
+}

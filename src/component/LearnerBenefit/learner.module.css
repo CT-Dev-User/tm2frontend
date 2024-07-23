@@ -1,0 +1,6 @@
+/* styles.css */
+.customList li::marker {
+    color: #3E94FA; /* Set the marker color to blue */
+    font-size: 30px;
+  }
+  

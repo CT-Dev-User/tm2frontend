@@ -1,0 +1,4 @@
+select option::hover{
+    background-color: rgb(171, 162, 162);
+    font-weight: 400;
+}

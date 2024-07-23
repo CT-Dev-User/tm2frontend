@@ -1,0 +1,12 @@
+.bg-gradient {
+  background: #02003f;
+  background: -moz-linear-gradient(left, #02003f 0%, #02003f 50%, #131313 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #02003f 0%,
+    #02003f 50%,
+    #131313 100%
+  );
+  background: linear-gradient(to right, #02003f 0%, #02003f 50%, #131313 100%);
+}
+

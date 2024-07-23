@@ -1,0 +1,53 @@
+.gradient-border {
+  background-image: linear-gradient(to right, #123693 0%, #497cff 100%);
+}
+
+.text-gradient {
+  background: #123693;
+  background: linear-gradient(to bottom, #123693 0%, #497cff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Techmomentum bar graph gradient */
+.barBg {
+  width: 50px;
+  background: #8061db;
+  background: -moz-linear-gradient(top, #3f306d 0%, #7a5cd0 50%, #8061db 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #3f306d 0%,
+    #7a5cd0 50%,
+    #8061db 100%
+  );
+  background: linear-gradient(to bottom, #3f306d 0%, #7a5cd0 50%, #8061db 100%);
+}
+
+.barBackground {
+  background: #02203d;
+  background: -moz-linear-gradient(top, #02203d 0%, #065aab 100%, #04121c 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #02203d 0%,
+    #065aab 100%,
+    #04121c 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    #02203d 0%,
+    #065aab 100%,
+    #04121c 100%
+  );
+}
+
+.gradient_border_left {
+  
+  border-left-width: 5px;
+  border-left-style: solid;
+  border-image: linear-gradient(180deg, #007ab9 0%, #9626bd 100%);
+  border-image-slice: 1;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+}

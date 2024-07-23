@@ -1,0 +1,18 @@
+<svg width="569" height="32" viewBox="0 0 569 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="28" width="569" height="4" rx="2" fill="#9E9E9E"/>
+<rect y="28" width="4" height="4" rx="2" fill="#00D247"/>
+<path d="M13.9609 2.375L25.0443 9.5L13.9609 16.625V2.375Z" fill="white" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M509.711 4.96094L505.753 8.1276H502.586V12.8776H505.753L509.711 16.0443V4.96094Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M513.305 7.69531C514.047 8.43761 514.464 9.44425 514.464 10.4939C514.464 11.5435 514.047 12.5501 513.305 13.2924" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="530" y="3" width="5.25" height="0.875" fill="white"/>
+<rect width="5.25" height="0.875" transform="matrix(1 0 0 -1 530 17)" fill="white"/>
+<rect width="5.25" height="0.875" transform="matrix(-1 0 0 1 544 3)" fill="white"/>
+<rect x="544" y="17" width="5.25" height="0.875" transform="rotate(180 544 17)" fill="white"/>
+<rect x="530" y="8.25" width="5.25" height="0.875" transform="rotate(-90 530 8.25)" fill="white"/>
+<rect width="5.25" height="0.875" transform="matrix(0 1 1 0 530 11.75)" fill="white"/>
+<rect width="5.25" height="0.875" transform="matrix(0 -1 -1 0 544 8.25)" fill="white"/>
+<rect x="544" y="11.75" width="5.25" height="0.875" transform="rotate(90 544 11.75)" fill="white"/>
+<circle cx="565.5" cy="4.5" r="1.5" fill="white"/>
+<circle cx="565.5" cy="9.5" r="1.5" fill="white"/>
+<circle cx="565.5" cy="14.5" r="1.5" fill="white"/>
+</svg>

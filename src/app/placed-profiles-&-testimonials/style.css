@@ -1,0 +1,8 @@
+/* custom-styles.css */
+.flex_alternating > :nth-child(odd) {
+  align-items: start;
+}
+
+.flex_alternating > :nth-child(even) {
+  align-items: end;
+}
